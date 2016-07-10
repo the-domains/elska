@@ -1,14 +1,26 @@
-layout_spectrum: 0.8970944
-typography_spectrum: 0.2093265
+layout_spectrum: 0
+name: Elska
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.8213016
   brandStrength: 0.4052657
   saturation: 0.583244
-  rhythmicContrast: 0.01933776
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-name: Elska
+  lightness: 0.8213016
+  rhythmicContrast: 0.01933776
+typography_spectrum: 0.5914894
